@@ -12,3 +12,14 @@ git push -u origin master
 git remote add origin https://github.com/mustafaakgul/education_docker_scale.git
 git branch -M master
 git push -u origin master
+
+git status
+git add .
+git commit push """""""
+
+_pycache_ : bycode dosyaları uygulamnn dha hızlı calıstırmasını saglar cache tutarak
+_init_    : bu olunca klasor bir python modulu gibi davranır
+wsgi      : web sunucusunun web uygulama ile nasıl iletişime gecicegine belirler
+
+Uygulamada 1 tane tempalte var app lerin icindede olablir o zaman dublicate eden yapılarda dogasndan
+kaynaklı geleblirdi ama microservis yapıp app lerin icindede templates static ve media olustuurlablir
