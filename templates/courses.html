@@ -65,6 +65,7 @@
 						<h3 class="widget-title">Search Tags</h3>
 						<ul class="tags">
 							{% for tag in tags %}
+{#                                {% if tag.slug in request.path %} BU tag.slug adreste varsa#}
 								<li><a href="{% url 'courses_by_tag' tag.slug %}">{% if tag.slug in request.path %} <b>{{tag.name}}</b>{% else %}{{tag.name}}{% endif %}</a></li>
 							{% endfor %}
 						</ul>
